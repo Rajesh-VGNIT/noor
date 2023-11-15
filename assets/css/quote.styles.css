@@ -1,0 +1,53 @@
+.required{
+    text-align: center;
+}
+.quote-text{
+    display: flex;
+    flex-direction: column;
+}
+.quote-text label{
+    margin-bottom: 12px;
+    margin-top: 15px;
+    font-size: 16px;
+   font-weight: 600;
+}
+
+.quote-text textarea{
+    height: 200px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    font-weight: 400;
+}
+.container input{
+    width: 100%;
+    height: 45px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    font-weight: 400;
+    /* outline: #c02b0a 1px solid ; */
+    
+}
+.required-input input{
+    width: 15px;
+    height: 15px;
+}
+.required-indicate{
+    font-weight: 400;
+    color: #c02b0a;
+}
+
+.quote_button button{
+    margin-top: 20px;
+/*    font-family: 'Montserrat', sans-serif;*/
+    background-color: #da291c;
+    border: 2px solid #da291c;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 34px ;
+}
+.quote_button button:hover{
+    background-color: transparent;
+    color:#da291c ;
+    border: 2px solid #da291c;
+}

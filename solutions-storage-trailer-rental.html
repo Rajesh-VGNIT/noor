@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Road Scholar | Transport</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/RS-Logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/services-details.styles.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<style>
+/*	* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #9de0a3;
+  min-width: 320px;
+}
+
+h2 {
+  text-align: center;
+  margin: 50px 0;
+  color: #386c3d;
+  font-size: 47px;
+  font-family: "Quicksand", sans-serif;
+}
+@media (max-width: 540px) {
+  h2 {
+    font-size: 28px;
+    margin: 30px 0;
+  }
+}*/
+
+form {
+  padding: 0 10%;
+}
+form section {
+  width: calc(50% - 40px);
+  padding: 20px;
+  background: #8ed294;
+  margin: 20px;
+  border-radius: 5px;
+}
+form section.left {
+  float: left;
+}
+form section.right {
+  float: right;
+}
+form section .input-container {
+  padding: 10px;
+}
+form section .input-container label {
+  display: block;
+  margin-bottom: 4px;
+  color: white;
+  font-size: 16px;
+  text-shadow: 0px 2px 1px #65ad6b;
+  font-family: "Quicksand", sans-serif;
+}
+form section .input-container input,
+form section .input-container textarea {
+  width: 100%;
+  padding: 5px 10px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background: #d7ffdb;
+  box-shadow: 0 2px 0px #77bd7d;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  color: #757575;
+}
+form section .input-container input:focus,
+form section .input-container textarea:focus {
+  outline: none;
+  background: white;
+}
+form section .input-container textarea {
+  height: 122px;
+  padding: 15px 10px;
+  resize: none;
+}
+form .send-container {
+  float: right;
+  width: 100%;
+  text-align: right;
+  margin-right: 20px;
+}
+form .send-container input {
+  background: #77bd7d;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+form .send-container input:hover {
+  background: #8ed294;
+}
+form:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media (max-width: 992px) {
+  form {
+    padding: 0 5%;
+  }
+}
+@media (max-width: 768px) {
+  form {
+    margin-bottom: 50px;
+  }
+  form section {
+    width: 100%;
+    margin: 0;
+  }
+  form section.left {
+    margin-bottom: -30px;
+  }
+  form .send-container {
+    margin-right: 0;
+    margin-top: 15px;
+  }
+  form .send-container input {
+    width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top2 d-flex align-items-center hidesection">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-1 col-lg-4 navigation d-flex align-items-lg-end">
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li class="dropdown">
+              <a href="about-us.html"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+              <ul> 
+                <li><a href="quality-program.html">Quality Program</a></li>
+                <li><a href="technology.html">ROAD SCHOLAR TECHNOLOGY</a></li>
+              </ul>
+            </li>
+           <li class="dropdown">
+              <a class="nav-link" href="service-area-map.html"><span>SERVICE AREA MAP</span> <i class="bi bi-chevron-down"></i></a>
+              <ul> 
+                <li><a href="asset-based.html"> ASSET BASED</a></li>
+                <li><a href="brokerage.html">BROKERAGE</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="contact-us.html">Contact</a></li>
+            
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+      </div>
+      <div class="col-4 col-sm-5 col-lg-4 text-center">
+        <a href="index.html" class="logo me-auto"><img src="assets/img/Logo.png" alt=""></a>
+      </div>
+      <div class="col-7 col-sm-6 col-md-5 col-lg-4 d-flex align-items-center justify-content-end headerbtn">
+        <a href="track.html" class="btn navbtn  bgorange ">QUICK TRACK</a>
+        <a href="quote.html" target="_blank" class="btn navbtn bgred">GET A QUOTE</a>
+        <a href="https://coroadscholartransport.formstack.com/forms/customeronboarding" target="_blank" class="btn navbtn bgblue">CUSTOMER PORTAL</a>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End Header -->
+
+
+<div class="header">
+	<img class="img-fluid" src="assets/img/service/14-StorageTrailerRental.png">
+</div>
+<div class="content-body">
+	<h4 class="content-title WorkSans-700 color-red">Storage Trailer Rental</h4>
+	<h4 class="WorkSans-300 color-red">STORAGE TRAILER RENTAL</h4>
+	<p class="font-size20">Finding warehouse space is difficult and with supply chain constraints,
+ and waiting until you have room to order more product can potentially 
+leave you unable to procure what you need. 
+</p>
+<h4 class="WorkSans-300">Road Scholar Transport-An Extension of Your Warehouse! 
+</h4>
+<p class="font-size20">Tight on warehouse space? Road Scholar has mobile storage solutions that save you money and space and are available 24/7. Choose from dry or temp-protected storage options. Use on site at your facility, or we can house for you and deliver at your request. We can also monitor the temperature of refrigerated storage trailers remotely if you need us to do so.</p>
+	<div class="content-serviceList">
+					<div class="row">
+						<div class="col-lg-12">
+							<ul>
+									<li>24/7 availability</li>
+									<li>Road Scholar Transport - An Extension of Your Warehouse!</li>
+									<li>Dry van storage rental</li>
+									<li>Long-term and short-term lease or rental options</li>
+									<li>53 foot vans and reefers</li>
+									<li>24/7 remote reefer temperature monitoring</li>
+									<li>Immediate alert in the case of an excursion</li>
+									<li>Fueling service available</li>
+									<li>Secured with Navalock when requested.</li>
+									<li>Equipped with GPS tracking.</li>
+									<li>Weather-tight, preventing damage to your freight</li>
+									<li>Roadworthy and storage trailers are available.</li>
+									<li>Select from swing or roll-up doors.</li>
+									<li>Available in wood or aluminum flooring.</li>
+									<li>Provides a mobile warehousing solution.</li>
+									<li>We drop and retrieve trailers housed at your site.</li>
+									<li>Saves money and space.</li>
+									<li>24/7 in/house maintenance if needed</li>
+							</ul>
+						</div>
+					</div>
+          <div class="serviceList-text">
+            <h3 class="WorkSans-300">Contact us today to see what we can do to help strengthen your Supply Chain!</h3>
+            <h3 class="WorkSans-300">REQUEST A STORAGE TRAILER RENTAL QUOTE</h3> 
+          </div>
+          
+						
+
+<div class="container">
+  <form action="#">
+    <div class="user__details">
+      <div class="input__box">
+        <span class="details">First Name</span>
+        <input type="text"  required>
+      </div>
+      <div class="input__box">
+        <span class="details">Last Name</span>
+        <input type="text" required>
+      </div>
+      <div class="input__box">
+        <span class="details">Email</span>
+        <input type="email" placeholder="johnsmith@hotmail.com" required>
+      </div>
+      <div class="input__box">
+        <span class="details">Phone Number</span>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="012-345-6789" required>
+      </div>
+      <div class="input__box">
+        <span class="details">Storage Location</span>
+        <input type="text"  required>
+      </div>
+      <div class="input__box">
+        <span class="details">Address 1</span>
+        <input type="text"  required>
+      </div>
+
+      <div class="input__box">
+        <span class="details">Address 2</span>
+        <input type="text"  required>
+      </div>
+
+      <div class="input__box">
+        <span class="details">City</span>
+        <input type="text"  required>
+      </div>
+
+      <div class="input__box">
+        <span class="details">State</span>
+        <input type="text"  required>
+      </div>
+
+      <div class="input__box">
+        <span class="details">Type of Trailers</span>
+        <input type="text"  required>
+      </div>
+
+      <div class="input__box">
+        <span class="details">Number of Trailers</span>
+        <input type="text"  required>
+      </div>
+
+      <div class="input__box">
+        <span class="details">Additional Notes</span>
+        <input type="text"  required>
+      </div>
+
+       <div class="input__box">
+        <span class="details">Rental Start Date</span>
+        <input type="date"  required>
+      </div>
+
+      <div class="input__box ">
+        <span class="details">Rental End Date</span>
+        <input type="date"  required>
+      </div>
+
+    </div>
+    <div class="button">
+      <input type="submit" value="SUBMIT  ">
+    </div>
+  </form>
+</div>
+     <div class="chat-image-gallery">
+                <div class="gallery-items">
+                    <div class="item">
+                        <a class="icon-hover" href="tel:+(570) 348-1155">
+                            <img src="assets/img/CALL ICON.png"></a>
+                            <div class="hide WorkSans-500">Call Us</div>
+                    </div>
+                </div>
+                <div class="gallery-items">
+                    <div class="item">
+                        <a class="icon-hover" href="#">
+                            <img src="assets/img/CHAT ICON.png"></a>
+                            <div class="hide WorkSans-500 mx-auto">Chat</div>
+                    </div>
+                </div>
+            </div>
+				</div>
+			</div>
+		<!-- ======= footer Section ======= -->
+	<footer class="">
+			<div class="buttons_bottom">
+				<a button class="btn btn-danger WorkSans-700 mx-auto" href="quote.html" target="_blank"> GET A QUOTE</a>
+			</div>
+			<div class="logo_footer"><img class="w-100" src="assets/img/Logo-White.png" alt=""></div>
+			<div class="footer_navigation">
+				<ul>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="#">Quick Track</a></li>
+          <li><a href="#">Staff Login</a></li>
+        </ul>
+			</div>
+			<div class="footer_red">
+				© Copyright 2023 Road Scholar. All Rights Reserved.
+			</div>
+	   </footer>
+   </div>
+   
+</div>
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!--script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js"></script>
+  <!-- Initialize Swiper -->
+
+
+  <!-- Template Main JS File -->
+  <!-- <script src="assets/js/main.js"></script> -->
+  <!-- <script src="assets/js/customscroll.js"></script> -->
+
+</body>
+
+</html>

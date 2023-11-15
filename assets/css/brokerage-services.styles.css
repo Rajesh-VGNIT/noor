@@ -1,0 +1,132 @@
+.brokerage-header {
+  position: relative;
+  }
+
+.brokerage-header p {
+  position: absolute;
+  top: 25%;
+  left: 28%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 5rem;
+  }
+
+.brokerage-header img {
+  width: 100%;
+  height: 50vh;
+  }
+.brokerage-services{
+    background: #deddde;
+    padding: 50px 80px;
+    
+}
+.brokerage-services h5 {
+    margin-bottom: 10px !important;
+    margin-top: 20px;
+    font-size: 44px !important;
+}
+.brokerage-services h6 {
+    font-size: 25px;
+    color: #757574;
+    list-style: disc;
+    margin-bottom: 30px;
+  }
+.brokerage-line{
+  padding: 50px;
+}
+  .brokerage-wrapper{
+  padding-top: 1px;
+  background-color: #deddde;
+  background-size: cover;
+  height: 100%;
+}
+
+ul {
+   
+  font-size: 13px;
+  line-height: 1.5em;
+  margin: 5px 0 15px;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+/*  position: relative;*/
+/*  padding: 0 0 0 20px;*/
+}
+.round{
+  padding: 20px 0px 20px 80px;
+}
+ul.round li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #af3237;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.brokerage-list{
+  font-size: 34px;
+  margin-bottom: 40px;
+    margin-right: 10px;
+    padding-right: 20px;
+    color: #757574;
+    position: relative;
+    padding-left: 30px;
+}
+.brkerage-text {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1200px) and (max-width:1400px) {  
+#header .navigation {
+  width: 50%;
+}
+.right_toggle_menu {
+  width: 33%;
+}
+
+.buttons_bottom {
+  background: #fff;
+  padding: 25px 90px;
+}
+.intro_section h1 {
+  font-size: 90px;
+  /* font-weight: bold; */
+  /* color: #af3438; */
+  line-height: 70px;
+}
+
+.logo_footer img {
+  max-width: 700px;
+}
+
+.brokerage-header p {
+    left: 37%;
+    
+}
+.brokerage-list {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+}

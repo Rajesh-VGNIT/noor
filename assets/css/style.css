@@ -2121,7 +2121,7 @@ footer .buttons_bottom .btn.btn-danger {
 }
 @media (max-width:375px){
 	.studies_tab_content img {
-		max-width: 355px;
+		max-width: 300px;
 	}
 	.medical_features .tab_content_center img {
 		max-width: 380px;

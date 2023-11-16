@@ -2137,15 +2137,14 @@ footer .buttons_bottom .btn.btn-danger {
 		padding: 7px 10px;
 		font-size: 15px !important;
 	}
-	.footer_red {
+	/* .footer_red {
 		background: #800000;
 		color: #fff;
 		margin-top: 8.5rem;
-		/* padding: 30px 40px; */
 		text-align: center;
 		font-weight: 600;
 		font-size: 14px;
-	}
+	} */
 	.logo_footer img {
 		margin-top: 100px;
 		max-width: 290px;
@@ -2305,15 +2304,14 @@ footer .buttons_bottom .btn.btn-danger {
 		padding: 7px 10px;
 		font-size: 15px !important;
 	}
-	.footer_red {
+	/* .footer_red {
 		background: #800000;
 		color: #fff;
 		margin-top: 8.5rem;
-		/* padding: 30px 40px; */
 		text-align: center;
 		font-weight: 600;
 		font-size: 14px;
-	}
+	} */
 	.logo_footer img {
 		margin-top: 100px;
 		max-width: 290px;

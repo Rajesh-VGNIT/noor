@@ -1981,6 +1981,10 @@ footer .buttons_bottom .btn.btn-danger {
 	.studies_tab_content img {
 		max-width: 300px;
 	}
+	footer .buttons_bottom1 {
+		display: block !important;
+		padding: 30px !important;
+	}
 	.medical_features .tab_content_center img {
 		max-width: 380px;
 		margin: auto;
@@ -2121,6 +2125,9 @@ footer .buttons_bottom .btn.btn-danger {
 		max-width: 380px;
 		margin: auto;
 		display: none;
+	}
+	.buttons_bottom {
+		padding: 30px !important;
 	}
 	.tabs .tab-pane h3 {
 		font-size: 15px;
@@ -2755,7 +2762,7 @@ footer .buttons_bottom .btn.btn-danger {
 		padding: 23px 50px 0 50px;
 	}
 	.buttons_bottom {
-		padding: 58px;
+		padding: 58px !important;
 	}
 	.case_studies_tab h2 {
 		margin-bottom: 10px;

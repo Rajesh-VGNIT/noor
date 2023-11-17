@@ -877,8 +877,6 @@ section {
 	max-width: 262px;
 	margin-top: -15px;
 	margin-top: -6px;
-/*  margin: 0 auto;*/
-  color: ;
 }
 
 .buttons_bottom .btn.btn-danger:hover {
@@ -1487,11 +1485,7 @@ footer .buttons_bottom .btn.btn-danger {
 	.intro_section {
 		padding: 0px 0px 20px 0px;
 	}
-	.left_intro {
-		/* border-right: 0; */
-		/* padding-top: 50px;
-		padding-bottom: 50px; */
-	}
+	
 	.right_intro_sec {
 		font-size: var(--font-size22);
 		color: #7b7b7b;
@@ -2164,6 +2158,17 @@ footer .buttons_bottom .btn.btn-danger {
 		cursor: pointer;
 		margin-top: -40px !important;
 	}
+	.Siconimg img{
+		width: 22px !important;
+	}
+	
+	.awareness_section p {
+		padding-right: 50px;
+		margin-bottom: -2rem !important;
+	}
+	.Siconimg p{
+		font-size: .6rem !important;
+	}
 	.SIcons-box p {
 		letter-spacing: 1px;
 		font-size: .6rem !important;
@@ -2403,6 +2408,7 @@ footer .buttons_bottom .btn.btn-danger {
 	.services_tab .services_tab_content h2 {
 		font-size: 20px !important;
 		letter-spacing: 0px !important;
+		margin-top: -0rem;
 	}
 	.services_tab_content h5 {
 		font-size: 14px;
@@ -2462,20 +2468,6 @@ footer .buttons_bottom .btn.btn-danger {
 		/* margin-right: 20px !important; */
 	}
 	}
-
-
-
-	
-
-	
-
-
-
-
-
-
-
-	
 
 
 
@@ -2683,17 +2675,93 @@ footer .buttons_bottom .btn.btn-danger {
 	.ServiceIcons {padding: 0px;}
 	.mapS-inner h4 {font-size: 1.20rem;}
 }
-@media (max-width:768px) {
+ @media (max-width:768px) {
 	.WorkSans-700 {font-size: 1rem !important;}
-	.mapS-inner h4 {
-		/* font-size: 0.9rem !important;  */
+	.medical_features .tab_content_center img {
+		max-width: 14px;
+		display: none;
+		margin: auto;
 	}
-/* 	
-	.color-red {
-		
-		font-size: 10px !important;
-	} */
-}
+    .tabs .tab-pane h3 {
+		font-size: 17px;
+	}
+	.medical_features h2 {
+		text-align: center;
+		margin-bottom: 0px;
+	}
+	.tabs .tab-pane ul li, .medical_features .tab_content_right p {
+		font-size: 10px;
+	}
+	.services_tab_content h2 {
+		font-size: 20px !important;
+		margin-top: -2rem;
+	}
+	.tabs.services_tab .tab-content li {
+		font-size: var(--font-size22);
+		font-size: 15px;
+	}
+	.services_tab_content h5 {
+		font-size: 20px;
+	}
+	.index-chat-image-gallery {
+		padding: 0px 0px 0px 0px !important;
+	}
+	.section-bg .buttons_bottom {
+		margin-left: 0px !important;
+		margin-top: -2rem !important;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+	}
+	.SIcons-box img {
+		max-width: 40px !important;
+	}
+	.SIcons-box p {
+		letter-spacing: 1px;
+		font-size: .6rem !important;
+	}
+	.font-size20 {
+		font-size: .8rem;
+	}
+	.map_section img {
+		width: 100%;
+		height: 55vh;
+	}
+	.studies_tab_content img {
+		max-width: 312px;
+	}
+	.case_studies_tab .studies_tab_content h3 {
+		margin-top: 14px;
+		color: #867b76;
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+	.studies_tab_content p {
+		font-size: 11px;
+		line-height: 25px;
+	}
+	.awareness_left h3 {
+		color: #867b76;
+		font-size: 19px;
+		margin-top: -.5rem !important;
+		text-transform: capitalize;
+	}
+	.awareness_section p {
+		padding-right: 50px;
+		margin-bottom: -6rem;
+	}
+	.awareness_section {
+		padding: 23px 50px 0 50px;
+	}
+	.buttons_bottom {
+		padding: 58px;
+	}
+	.case_studies_tab h2 {
+		margin-bottom: 10px;
+	}
+	
+} 
 
 
 @media (max-width:1400px) {
@@ -2722,6 +2790,7 @@ footer .buttons_bottom .btn.btn-danger {
 	.ServiceIcons .SIcons-box:nth-child(2n+2) {
 		border-right: none;
 	}
+	
 }
 
 
@@ -2773,9 +2842,6 @@ footer .buttons_bottom .btn.btn-danger {
 .line-top{
 	position: relative;
 	top: 5px;
-}
-.line{
-	
 }
 
 

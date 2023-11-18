@@ -2308,6 +2308,12 @@ footer .buttons_bottom .btn.btn-danger {
 	  }
 
 }
+@media (max-width:412px){
+	.awareness_section p {
+		padding-right: 50px;
+		margin-bottom: -1rem !important;
+	}
+}
 
 @media (max-width:425px){
 	.studies_tab_content img {

@@ -2118,6 +2118,17 @@ footer .buttons_bottom .btn.btn-danger {
 
 }
 @media (max-width:375px){
+	
+	.headerbtn1{
+		display: block !important;
+	}
+	.case_studies_tab li {
+		margin-bottom: 0px;
+	}
+	.studies_tab_content img {
+    margin-top: 0rem;
+	max-width: 120px !important;
+}
 	.studies_tab_content img {
 		max-width: 330px;
 	}
@@ -2437,7 +2448,7 @@ footer .buttons_bottom .btn.btn-danger {
 		font-size: 20px;
 	}
 	.studies_tab_content img {
-		margin-top: -2rem;
+		margin-top: -0rem;
 	}
 	.studies_tab_content p {
 		font-size: 13px;
@@ -2746,7 +2757,7 @@ footer .buttons_bottom .btn.btn-danger {
 	}
 	.studies_tab_content p {
 		font-size: 11px;
-		line-height: 25px;
+		line-height: 22px;
 	}
 	.awareness_left h3 {
 		color: #867b76;
@@ -2767,6 +2778,35 @@ footer .buttons_bottom .btn.btn-danger {
 	.case_studies_tab h2 {
 		margin-bottom: 10px;
 	}
+	/* .d-none {
+		display: block!important;
+	} */
+	.nav-tabs li a h4{
+		display: block !important;
+	}
+	.case_studies_tab .nav-link h4 {
+		font-size: 12px;
+	}
+	.case_studies_tab .nav-link.active h4 {
+		font-size: 11px;
+	}
+	.case_studies_tab .count {
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		line-height: 37px;
+	}
+	.case_studies_tab .nav-link.text-center.active .count {
+		width: 40px;
+		height: 40px;
+		font-size: 28px;
+		line-height: 36px;
+	}
+	.testimonial_sec {
+		background: #878484;
+		padding: 40px 20px;
+	}
+	
 	
 } 
 

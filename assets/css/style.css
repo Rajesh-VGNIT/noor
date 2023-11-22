@@ -2118,6 +2118,12 @@ footer .buttons_bottom .btn.btn-danger {
 
 }
 @media (max-width:375px){
+	.left_intro h1{
+		font-size: 2rem !important;
+	}
+	#header .logo {
+		margin-left: 27px !important;
+	}
 	
 	.headerbtn1{
 		display: block !important;
@@ -2699,12 +2705,35 @@ footer .buttons_bottom .btn.btn-danger {
 	.ServiceIcons {padding: 0px;}
 	.mapS-inner h4 {font-size: 1.20rem;}
 }
+.col-lg-2 {
+    flex: 0 0 auto;
+    width: 31.666667%;
+}
+#header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-left: 83px;
+}
  @media (max-width:768px) {
 	.WorkSans-700 {font-size: 1rem !important;}
 	.medical_features .tab_content_center img {
 		max-width: 14px;
 		display: none;
 		margin: auto;
+	}
+	.col-lg-2 {
+		flex: 0 0 auto;
+		width: 48.666667% !important;
+	}
+	#header .logo {
+		margin-left: 143px;
+	}
+	
+	.left_intro h1{
+		font-size: 2rem !important;
 	}
     .tabs .tab-pane h3 {
 		font-size: 17px;

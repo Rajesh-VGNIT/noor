@@ -161,10 +161,10 @@ form .gender__details .category {
   background: var(--main-purple);
 }
 
-form input[type="radio"] {
+/*form input[type="radio"] {
   display: none;
 }
-
+*/
 /* submit button */
 form .button {
   height: 45px;

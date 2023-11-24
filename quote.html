@@ -32,6 +32,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" crossorigin="anonymous"
         referrerpolicy="no-referrer"></script>
 
+        <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+      ></script> 
+      <script type="text/javascript">
+        (function () {
+          emailjs.init("QCjmU1Gx06L9KP9iY");
+        })();
+      </script>
+
 </head>
 <style>
 
@@ -80,17 +90,18 @@
 </header>
 <!-- End Header -->
 
-    <div class="container">
+    <form class="container">
         <div class="mt-5 required">
-            <h4 class="WorkSans-700">PLEASE ENTER YOUR SHIPMENT INFORMATION BELOW.</h4>
-            <h4 class="WorkSans-500">WE WILL RESPOND IMMEDIATELY!</h4>
+            <h1 class="WorkSans-700">PLEASE ENTER YOUR SHIPMENT INFORMATION BELOW.</h1>
+            <h2 class="WorkSans-500">WE WILL RESPOND IMMEDIATELY!</h2>
             <p class="mt-4 WorkSans-300">*Appointment required</p>
         </div>
         <div class="row">
+          <form id="emailForm">
           <div class="col-sm-6">
             <div class="quote-text">
                 <label class="WorkSans-700">Company Name <span class="required-indicate">(Required)</span></label>
-                <input type="text" />
+                <input type="text" name="company" id="company"/>
              </div>
           </div>
           <div class="col-sm-6">
@@ -102,52 +113,54 @@
           <div class="col-sm-6">
             <div class="quote-text">
                 <label class="WorkSans-700">Contact Name <span class="required-indicate">(Required)</span></label>
-                <input type="text" />
+                <input type="text" name="fcontact" id="fcontact"  required="">
              </div>
+             <label class="WorkSans-500">First Name</label>
           </div>
           <div class="col-sm-6">
             <div class="quote-text">
                 <label></label><br>
-                <input type="text" />
+                <input type="text" name="lcontact" id="lcontact" />
              </div>
+             <label class="WorkSans-500 ">Last Name</label>
           </div>
 
           <div class="col-sm-6">
             <div class="quote-text">
                 <label class="WorkSans-700">Email <span class="required-indicate">(Required)</span></label>
-                <input type="text" />
+                <input type="text" name="email" id="email" />
              </div>
           </div>
           <div class="col-sm-6">
             <div class="quote-text">
                 <label class="WorkSans-700">Phone <span class="required-indicate">(Required)</span></label>
-                <input type="text" />
+                <input type="text" name="phone" id="phone" />
              </div>
           </div>
 
           <div class="col-sm-6">
             <div class="quote-text">
                 <label class="WorkSans-700">Origin Zip <span class="required-indicate">(Required)</span></label>
-                <input type="text" />
+                <input type="text" name="originzip" id="originzip" />
              </div>
           </div>
           <div class="col-sm-6">
             <div class="quote-text">
                <label class="WorkSans-700">Destination Zip <span class="required-indicate">(Required)</span></label>
-               <input type="text" />
+               <input type="text" name="destination" id="destination" />
              </div>
           </div>
 
           <div class="col-sm-6">
             <div class="quote-text">
                 <label class="WorkSans-700">Weight <span class="required-indicate">(Required)</span></label>
-                <input type="number" />
+                <input type="number" name="weight" id="weight" />
              </div>
           </div>
           <div class="col-sm-6">
             <div class="quote-text">
                <label class="WorkSans-700">Number of Pallets <span class="required-indicate">(Required)</span></label>
-               <input type="number" />
+               <input type="number" name="numberofpallets" id="numberofpallets" />
              </div>
           </div>
 
@@ -167,10 +180,10 @@
             <div class="quote-text">
                 <label class="WorkSans-700">Temperature Controlled? <span class="required-indicate">(Required)</span></label>
                 <div class="required-input">
-                  <span><input type="radio" name="radio"> Yes</span>
+                  <span><input type="radio" id="temp1" name="temperature" value="Yes"> Yes</span>
                </div>
                <div class="required-input mt-2">
-                  <span><input type="radio" name="radio"> No</span>
+                  <span><input type="radio" id="temp2" name="temperature" value="No"> No</span>
                </div>
              </div>
           </div>
@@ -178,10 +191,10 @@
             <div class="quote-text">
                <label class="WorkSans-700">HAZMAT? <span class="required-indicate">(Required)</span></label>
                <div class="required-input">
-                  <span><input type="radio" name="radio"> Yes</span>
+                  <span><input type="radio" id="haz1"  name="hazmat" value="Yes"> Yes</span>
                </div>
                <div class="required-input mt-2">
-                  <span><input type="radio" name="radio"> No</span>
+                  <span><input type="radio" id="haz2" name="hazmat" value="No"> No</span>
                </div>
              </div>
           </div>
@@ -190,10 +203,10 @@
             <div class="quote-text">
                 <label class="WorkSans-700">Is an appointment required? <span class="required-indicate">(Required)</span></label>
                 <div class="required-input">
-                  <span><input type="radio" name="radio"> Yes</span>
+                  <span><input type="radio" id="appoint1" name="appointment" value="Yes"> Yes</span>
                </div>
                <div class="required-input mt-2">
-                  <span><input type="radio" name="radio"> No</span>
+                  <span><input type="radio" id="apponit2" name="appointment" value="No"> No</span>
                </div>
              </div>
           </div>
@@ -206,7 +219,7 @@
           <div class="col-sm-7">
             <div class="quote-text">
                 <label class="WorkSans-700">Additional Shipping Notes (Optional) </label>
-               <textarea  type="text"></textarea>
+               <textarea  type="text" name="additional" id="additional"></textarea>
              </div>
           </div>
           <div class="col-sm-5">
@@ -216,10 +229,11 @@
              </div>
           </div>
           <div class="quote_button">
-             <a href="#"><button class="WorkSans-500" type="submit">SUBMIT QUOTE REQUEST</button></a>
+             <button class="WorkSans-500" type="submit" onclick="sendEmail()">SUBMIT QUOTE REQUEST</button>
           </div>
 
 
+        </form>
         </div>
 
 
@@ -250,6 +264,98 @@
 
 
 
+    <script>
+        
+      function sendEmail() {
+       event.preventDefault();
+           // Get the form data
+           const company = document.getElementById("company").value;
+           const fcontact = document.getElementById("fcontact").value;
+           const lcontact = document.getElementById("lcontact").value;
+           const email = document.getElementById("email").value;
+           const phone = document.getElementById("phone").value;
+           const originzip = document.getElementById("originzip").value;
+           const destination = document.getElementById("destination").value;
+           const weight = document.getElementById("weight").value;
+           const numberofpallets = document.getElementById("numberofpallets").value;
+           const additional = document.getElementById("additional").value;
+           
+   
+
+        // Determine the selected Temperature Controlled
+        const temperatureRadios = document.getElementsByName("temperature");
+           let temperature = "Not specified";
+           for (const radio of temperatureRadios) {
+               if (radio.checked) {
+                   temperature = radio.value;
+                   break;
+               }
+           }
+
+
+           // Determine the selected Hazmat Controlled
+           const hazmatRadios = document.getElementsByName("hazmat");
+           let hazmat = "Not specified";
+           for (const radio of hazmatRadios) {
+               if (radio.checked) {
+                   hazmat = radio.value;
+                   break;
+               }
+           }
+
+           // Determine the selected Appointment Controlled
+           const appointmentRadios = document.getElementsByName("appointment");
+           let appointment = "Not specified";
+           for (const radio of appointmentRadios) {
+               if (radio.checked) {
+                appointment = radio.value;
+                   break;
+               }
+           }
+
+            
+   
+           // Send the email using Email.js
+           emailjs.send("service_x69ymhe", "template_9omsd8u", {
+               company: company,
+               fcontact: fcontact,
+               lcontact: lcontact,
+               email: email,
+               phone: phone,
+               originzip: originzip,
+               destination: destination,
+               weight: weight,
+               numberofpallets: numberofpallets,
+               temperature: temperature,
+               hazmat: hazmat,
+               appointment: appointment,
+               additional: additional,
+           }).then(
+               function (response) {
+                   document.getElementById("company").value = "";
+                   document.getElementById("fcontact").value = "";
+                   document.getElementById("lcontact").value = "";
+                   document.getElementById("email").value = "";
+                   document.getElementById("phone").value = "";
+                   document.getElementById("originzip").value = "";
+                   document.getElementById("destination").value = "";
+                   document.getElementById("weight").value = "";
+                   document.getElementById("numberofpallets").value = "";
+                   document.querySelector('input[name="temperature"]:checked').checked = false;
+                   document.querySelector('input[name="hazmat"]:checked').checked = false;
+                   document.querySelector('input[name="appointment"]:checked').checked = false;
+                   document.getElementById("additional").value = "";
+                   alert("Your message sent successfully!!")
+                   console.log("Email sent successfully", response);
+               },
+               function (error) {
+                   console.error("Email sending failed", error);
+               }
+           );
+       }
+   </script>
+   
+
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -260,8 +366,8 @@
 
 
     <!-- Template Main JS File -->
-    <!-- <script src="assets/js/main.js"></script> -->
-    <!-- <script src="assets/js/customscroll.js"></script> -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/customscroll.js"></script>
 
 </body>
 

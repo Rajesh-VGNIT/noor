@@ -530,9 +530,10 @@ a:hover {
 		margin-bottom: 0px !important;
 	}
 	.studies_tab_content img {
-    margin-top: 0rem;
-	max-width: 120px !important;
-}
+       margin-top: 0rem;
+	   max-width: 120px !important;
+	   height: 60px !important;
+    }
 	.studies_tab_content img {
 		max-width: 330px;
 	}
@@ -744,8 +745,12 @@ a:hover {
 	  }
 	  .ServiceIcons {
 		padding: 0px;
-		margin-bottom: -17px;
+	    margin-bottom: -17px;
 	}
+	.case_studies_tab .nav-link.text-center.active .count {
+		margin-left: 0px !important;
+	}
+	
 
 }
 @media (max-width:412px){
@@ -887,7 +892,7 @@ a:hover {
 		max-width: 26px !important;
 	}
 	.ServiceTop h2 {
-		margin-top: -50px !important;
+		margin-top: -33px !important;
 	}
 	.case_studies_tab .studies_tab_content h3 {
 		margin-top: 7px;
@@ -923,15 +928,34 @@ a:hover {
 
 }
 @media (max-width:768px) {
-	/* .footer_navigation ul {
-		display: flex;
-		gap: 15px;
-		flex-wrap: wrap;
-		padding: 0px 40px;
-		padding-bottom: 113px !important;
-	} */
-	
-	.WorkSans-700 {font-size: 1rem !important;}
+	.worksen00{
+       margin-top: -24px;
+	}
+	.button_banner_button{
+		margin-top: -2rem !important;
+	}
+	.index-chat-image-gallery .index-gallery-items .index-item {
+		width: 55px !important;
+	}
+	.SIcons-box {
+		margin-top: -1.4rem;
+		width: 25%;
+	}
+	.ServiceTop {
+		margin-bottom: 1rem !important;
+	}
+	.tabs .tab-content {
+		margin-top: -23px !important;
+		background: #7f7c7b;
+		padding: 35px 80px;
+		color: #fff;
+	}
+	.awareness_section h2 {
+		margin-bottom: 18px !important;
+	}
+	.WorkSans-700 {
+		font-size: 1rem !important;
+	}
 	.medical_features .tab_content_center img {
 		max-width: 14px;
 		display: none;
@@ -942,7 +966,7 @@ a:hover {
 		width: 48.666667% !important;
 	}
 	#header .logo {
-		margin-left: 143px;
+		margin-left: 100px;
 	}
 	
 	.left_intro h1{
@@ -960,17 +984,18 @@ a:hover {
 	}
 	.services_tab_content h2 {
 		font-size: 20px !important;
-		margin-top: -2rem;
+		margin-top: -2rem !important;
 	}
 	.tabs.services_tab .tab-content li {
 		font-size: var(--font-size22);
-		font-size: 15px;
+		font-size: 15px !important;
 	}
 	.services_tab_content h5 {
 		font-size: 20px;
 	}
 	.index-chat-image-gallery {
 		padding: 0px 0px 0px 0px !important;
+		margin-top: -25px !important;
 	}
 	.section-bg .buttons_bottom {
 		margin-left: 0px !important;
@@ -990,22 +1015,34 @@ a:hover {
 	.font-size20 {
 		font-size: .8rem;
 	}
+	
 	.map_section img {
 		width: 100%;
-		height: 55vh;
+		height: 50vh !important;
+	}
+	.col-md-5 {
+		flex: 0 0 auto;
+		width: 54.666667%;
+	}
+	.col-sm-5 {
+      width: 0.66666667%;
+    }
+	.headerbtn2{
+		margin-left: 260px !important;
 	}
 	.studies_tab_content img {
 		max-width: 312px;
+		height: 200px;
 	}
 	.case_studies_tab .studies_tab_content h3 {
-		margin-top: 14px;
+		margin-top: 14px !important;
 		color: #867b76;
 		text-transform: uppercase;
-		font-size: 24px;
+		font-size: 24px !important;
 	}
 	.studies_tab_content p {
-		font-size: 11px;
-		line-height: 22px;
+		font-size: 11px !important;
+		line-height: 22px !important;
 	}
 	.awareness_left h3 {
 		color: #867b76;
@@ -1026,9 +1063,6 @@ a:hover {
 	.case_studies_tab h2 {
 		margin-bottom: 10px !important;
 	}
-	/* .d-none {
-		display: block!important;
-	} */
 	.nav-tabs li a h4{
 		display: block !important;
 	}
@@ -2409,7 +2443,7 @@ footer .buttons_bottom .btn.btn-danger {
 
 	.medical_features h2 {
 		text-align: center;
-		margin-bottom: 25px;
+		margin-bottom: 0px;
 	}
 	.tab_content_center img {
 		max-width: 400px;

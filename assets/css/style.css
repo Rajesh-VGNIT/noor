@@ -2118,7 +2118,7 @@ footer .buttons_bottom .btn.btn-danger {
 @media (max-width:767px) {
 	.footer_navigation ul {
 		margin-top: 20px;
-		margin-bottom: -11px !important;
+		margin-bottom: -0px !important;
 	}
 	.intro_section h1 {
 		font-size: 35px;

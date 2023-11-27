@@ -509,6 +509,13 @@ a:hover {
 
 }
 @media (max-width:375px){
+	.footer_navigation22 ul {
+		display: flex;
+		gap: 15px;
+		flex-wrap: wrap;
+		padding: 0px 40px;
+		padding-bottom: 0px !important;
+	}
 	.arrow-bottom .swiper-pagination-bullet-active + .swiper-pagination-bullet {
 		height: 50px;
 		width: 50px;
@@ -928,6 +935,13 @@ a:hover {
 
 }
 @media (max-width:768px) {
+	.footer_navigation ul {
+		display: flex;
+		gap: 15px;
+		flex-wrap: wrap;
+		padding: 0px 40px;
+		padding-bottom: 113px !important;
+	}
 	.worksen00{
        margin-top: -24px;
 	}
@@ -1589,8 +1603,6 @@ section {
 	box-shadow: 8px 7px 9px #bbb;
 	width: 100%;
 	max-width: 262px;
-/*  margin: 0 auto;*/
-  color: ;
 }
 
 .buttons_bottom .btn.btn-danger:hover {
@@ -1598,9 +1610,7 @@ section {
 	background: #fff;
 	color:#da291c;
 }
-/* .tab_content_left h2 {
-	font-family: 'Times New Roman Cyr';
-} */
+
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -2284,7 +2294,7 @@ footer .buttons_bottom .btn.btn-danger {
 	}
 	.footer_navigation ul {
 		margin-top: 20px;
-		margin-bottom: 35px;
+		margin-bottom: -78px;
 	}
 	.logo_footer {
 		text-align: center;

@@ -1611,7 +1611,6 @@ section {
 	color:#da291c;
 }
 
-
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -2117,6 +2116,10 @@ footer .buttons_bottom .btn.btn-danger {
 }
 
 @media (max-width:767px) {
+	.footer_navigation ul {
+		margin-top: 20px;
+		margin-bottom: -11px !important;
+	}
 	.intro_section h1 {
 		font-size: 35px;
 		line-height: 40px;
@@ -2292,10 +2295,7 @@ footer .buttons_bottom .btn.btn-danger {
 		justify-content: center;
 		padding: 0;
 	}
-	.footer_navigation ul {
-		margin-top: 20px;
-		margin-bottom: -78px;
-	}
+	
 	.logo_footer {
 		text-align: center;
 		margin-top: 20px;

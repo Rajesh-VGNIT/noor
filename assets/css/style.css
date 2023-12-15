@@ -1720,17 +1720,17 @@ section {
 .quote_icon_top {
 	position: relative;
 	top: 30px;
-	font-family: arial;
+	/* font-family: arial; */
 }
 
 .quote_icon_bottom::after {
 	content: "\201D";
-	font-size: 64px;
+	font-size: 90px;
 	margin-right: 5px;
 	color: grey;
 	text-align: center;
-	font-weight: 300;
-	font-family: arial;
+	font-weight: 200;
+	/* font-family: arial; */
 	line-height: normal;
 }
 .testimonials .testimonial-item .testimonial-img {
